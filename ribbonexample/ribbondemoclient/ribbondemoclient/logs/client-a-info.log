@@ -1,0 +1,290 @@
+2019-03-29 10:50:27.675 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0506ed8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 10:50:31.648 [main] INFO  c.e.r.RibbondemoclientApplication
+				-No active profile set, falling back to default profiles: default
+2019-03-29 10:50:41.280 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=49dcda43-4b4d-326b-ab6a-272bb37248c2
+2019-03-29 10:50:41.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0506ed8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 10:50:54.793 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 7070 (http)
+2019-03-29 10:50:55.640 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-7070"]
+2019-03-29 10:50:56.020 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-03-29 10:50:56.020 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 10:50:56.548 [main] INFO  o.a.c.core.AprLifecycleListener
+				-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/jdk1.8/jre1.8/bin/server;E:/jdk1.8/jre1.8/bin;E:/jdk1.8/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;E:\app\admin\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\node8;D:\maven\apache-maven-3.3.9\bin;E:\jdk1.8\bin;E:\jdk1.8\jre\bin;E:\mysql-5.6.36-winx64\bin;E:\redis3.2\;D:\golang\bin;E:\git\Git\cmd;E:\node8\node_global\;%GOPATH%\bin;C:\Program Files\Docker Toolbox;E:\eclipse\eclipse-jee-mars-1-win32-x86_64\eclipse;;.]
+2019-03-29 10:50:58.948 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-03-29 10:50:58.948 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 27220 ms
+2019-03-29 10:51:00.185 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-03-29 10:51:00.185 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-29 10:51:00.353 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-03-29 10:51:00.353 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-29 10:51:02.367 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-29 10:51:13.881 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory
+				-Setting initial instance status as: STARTING
+2019-03-29 10:51:18.112 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Initializing Eureka in region us-east-1
+2019-03-29 10:51:27.988 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON encoding codec LegacyJacksonJson
+2019-03-29 10:51:27.989 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON decoding codec LegacyJacksonJson
+2019-03-29 10:51:31.671 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML encoding codec XStreamXml
+2019-03-29 10:51:31.671 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML decoding codec XStreamXml
+2019-03-29 10:51:33.554 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-03-29 10:51:34.790 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2019-03-29 10:51:34.791 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2019-03-29 10:51:34.791 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2019-03-29 10:51:34.791 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2019-03-29 10:51:34.791 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2019-03-29 10:51:34.791 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: true
+2019-03-29 10:51:34.791 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2019-03-29 10:51:36.781 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2019-03-29 10:51:36.783 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Starting heartbeat executor: renew interval is: 30
+2019-03-29 10:51:36.785 [main] INFO  c.n.discovery.InstanceInfoReplicator
+				-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-29 10:51:36.884 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Discovery Client initialized at timestamp 1553827896787 with initial instances count: 0
+2019-03-29 10:51:36.885 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Registering application CLIENT-A with eureka with status UP
+2019-03-29 10:51:36.886 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1553827896886, current=UP, previous=STARTING]
+2019-03-29 10:51:36.889 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_CLIENT-A/192.168.0.24:client-a:7070: registering service...
+2019-03-29 10:51:36.920 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-7070"]
+2019-03-29 10:51:37.579 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_CLIENT-A/192.168.0.24:client-a:7070 - registration status: 204
+2019-03-29 10:51:38.361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 7070 (http) with context path ''
+2019-03-29 10:51:38.364 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration
+				-Updating port to 7070
+2019-03-29 10:51:38.366 [main] INFO  c.e.r.RibbondemoclientApplication
+				-Started RibbondemoclientApplication in 108.689 seconds (JVM running for 162.004)
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: false
+2019-03-29 10:52:06.785 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2019-03-29 10:52:07.156 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2019-03-29 10:52:57.634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d79eb907] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 10:52:58.230 [main] INFO  c.e.r.RibbondemoclientApplication
+				-No active profile set, falling back to default profiles: default
+2019-03-29 10:52:58.988 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=49dcda43-4b4d-326b-ab6a-272bb37248c2
+2019-03-29 10:52:59.088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d79eb907] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 10:52:59.580 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 7070 (http)
+2019-03-29 10:52:59.604 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-7070"]
+2019-03-29 10:52:59.618 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-03-29 10:52:59.618 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 10:52:59.627 [main] INFO  o.a.c.core.AprLifecycleListener
+				-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/jdk1.8/jre1.8/bin/server;E:/jdk1.8/jre1.8/bin;E:/jdk1.8/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;E:\app\admin\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\node8;D:\maven\apache-maven-3.3.9\bin;E:\jdk1.8\bin;E:\jdk1.8\jre\bin;E:\mysql-5.6.36-winx64\bin;E:\redis3.2\;D:\golang\bin;E:\git\Git\cmd;E:\node8\node_global\;%GOPATH%\bin;C:\Program Files\Docker Toolbox;E:\eclipse\eclipse-jee-mars-1-win32-x86_64\eclipse;;.]
+2019-03-29 10:52:59.891 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-03-29 10:52:59.891 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 1643 ms
+2019-03-29 10:52:59.971 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-03-29 10:52:59.972 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-29 10:52:59.980 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-03-29 10:52:59.980 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-29 10:53:00.265 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-29 10:53:01.565 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory
+				-Setting initial instance status as: STARTING
+2019-03-29 10:53:01.632 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Initializing Eureka in region us-east-1
+2019-03-29 10:53:02.093 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON encoding codec LegacyJacksonJson
+2019-03-29 10:53:02.093 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON decoding codec LegacyJacksonJson
+2019-03-29 10:53:02.215 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML encoding codec XStreamXml
+2019-03-29 10:53:02.215 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML decoding codec XStreamXml
+2019-03-29 10:53:02.399 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: true
+2019-03-29 10:53:02.572 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2019-03-29 10:53:02.900 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2019-03-29 10:53:02.903 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Starting heartbeat executor: renew interval is: 30
+2019-03-29 10:53:02.905 [main] INFO  c.n.discovery.InstanceInfoReplicator
+				-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-29 10:53:02.909 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Discovery Client initialized at timestamp 1553827982908 with initial instances count: 1
+2019-03-29 10:53:02.910 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Registering application RIBBONDEMOCLIENT with eureka with status UP
+2019-03-29 10:53:02.911 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1553827982911, current=UP, previous=STARTING]
+2019-03-29 10:53:02.917 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_RIBBONDEMOCLIENT/192.168.0.24:ribbondemoclient:7070: registering service...
+2019-03-29 10:53:02.921 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-7070"]
+2019-03-29 10:53:02.953 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 7070 (http) with context path ''
+2019-03-29 10:53:02.955 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration
+				-Updating port to 7070
+2019-03-29 10:53:02.957 [main] INFO  c.e.r.RibbondemoclientApplication
+				-Started RibbondemoclientApplication in 6.851 seconds (JVM running for 7.499)
+2019-03-29 10:53:03.019 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_RIBBONDEMOCLIENT/192.168.0.24:ribbondemoclient:7070 - registration status: 204
+2019-03-29 10:58:02.577 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-03-29 11:03:02.582 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-03-29 11:06:17.439 [http-nio-7070-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-29 11:06:17.440 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-03-29 11:06:17.459 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 19 ms
+2019-03-29 11:06:17.532 [http-nio-7070-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				-Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2019-03-29 11:07:14.409 [http-nio-7070-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				-Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2019-03-29 11:07:15.639 [http-nio-7070-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				-Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2019-03-29 11:07:44.866 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dc6b7c5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 11:07:45.215 [main] INFO  c.e.r.RibbondemoclientApplication
+				-No active profile set, falling back to default profiles: default
+2019-03-29 11:07:45.989 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=49dcda43-4b4d-326b-ab6a-272bb37248c2
+2019-03-29 11:07:46.260 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dc6b7c5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 11:07:46.697 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 7070 (http)
+2019-03-29 11:07:46.710 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-7070"]
+2019-03-29 11:07:46.720 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-03-29 11:07:46.720 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 11:07:46.729 [main] INFO  o.a.c.core.AprLifecycleListener
+				-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/jdk1.8/jre1.8/bin/server;E:/jdk1.8/jre1.8/bin;E:/jdk1.8/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;E:\app\admin\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\node8;D:\maven\apache-maven-3.3.9\bin;E:\jdk1.8\bin;E:\jdk1.8\jre\bin;E:\mysql-5.6.36-winx64\bin;E:\redis3.2\;D:\golang\bin;E:\git\Git\cmd;E:\node8\node_global\;%GOPATH%\bin;C:\Program Files\Docker Toolbox;E:\eclipse\eclipse-jee-mars-1-win32-x86_64\eclipse;;.]
+2019-03-29 11:07:46.906 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-03-29 11:07:46.907 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 1680 ms
+2019-03-29 11:07:46.969 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-03-29 11:07:46.969 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-29 11:07:46.975 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-03-29 11:07:46.975 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-29 11:07:47.120 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-29 11:07:48.022 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory
+				-Setting initial instance status as: STARTING
+2019-03-29 11:07:48.061 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Initializing Eureka in region us-east-1
+2019-03-29 11:07:48.397 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON encoding codec LegacyJacksonJson
+2019-03-29 11:07:48.397 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON decoding codec LegacyJacksonJson
+2019-03-29 11:07:48.505 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML encoding codec XStreamXml
+2019-03-29 11:07:48.506 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML decoding codec XStreamXml
+2019-03-29 11:07:48.653 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: true
+2019-03-29 11:07:48.776 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2019-03-29 11:07:49.024 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2019-03-29 11:07:49.028 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Starting heartbeat executor: renew interval is: 30
+2019-03-29 11:07:49.030 [main] INFO  c.n.discovery.InstanceInfoReplicator
+				-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-29 11:07:49.034 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Discovery Client initialized at timestamp 1553828869033 with initial instances count: 2
+2019-03-29 11:07:49.035 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Registering application RIBBONDEMOCLIENT with eureka with status UP
+2019-03-29 11:07:49.036 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1553828869036, current=UP, previous=STARTING]
+2019-03-29 11:07:49.043 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_RIBBONDEMOCLIENT/192.168.0.24:ribbondemoclient:7070: registering service...
+2019-03-29 11:07:49.046 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-7070"]
+2019-03-29 11:07:49.072 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 7070 (http) with context path ''
+2019-03-29 11:07:49.073 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration
+				-Updating port to 7070
+2019-03-29 11:07:49.074 [main] INFO  c.e.r.RibbondemoclientApplication
+				-Started RibbondemoclientApplication in 5.119 seconds (JVM running for 5.629)
+2019-03-29 11:07:49.113 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_RIBBONDEMOCLIENT/192.168.0.24:ribbondemoclient:7070 - registration status: 204
+2019-03-29 11:07:58.841 [http-nio-7070-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-29 11:07:58.842 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-03-29 11:07:58.847 [http-nio-7070-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 5 ms
