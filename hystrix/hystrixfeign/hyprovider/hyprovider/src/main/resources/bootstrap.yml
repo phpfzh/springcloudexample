@@ -1,0 +1,11 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: hyprovider
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.98.235.226:8761/eureka/
+  instance:
+    prefer-ip-address: true

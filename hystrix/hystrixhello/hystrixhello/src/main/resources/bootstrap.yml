@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: hystrixhello
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.98.235.226:8761/eureka/
+  instance:
+    prefer-ip-address: true
